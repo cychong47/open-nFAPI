@@ -234,7 +234,7 @@ static const true_false_string nfapi_multi_carrier_tx_strname = {
 };
 
 static const true_false_string nfapi_multi_carrier_freeze_strname = {
-	"Absence of other technology isn’t guaranteed",
+	"Absence of other technology isnâ€™t guaranteed",
 	"Absence of other technology is guaranteed"
 };
 
@@ -415,7 +415,7 @@ typedef enum {
 	NFAPI_ANTENNA_PORT1 = 0,
 	NFAPI_ANTENNA_PORT2,
 	NFAPI_ANTENNA_PORT4,
-} nfapi_ack_nack_mode_e;
+} nfapi_antenna_port_e;
 
 static const value_string nfapi_antenna_port_vals[] = {
 	{ NFAPI_ANTENNA_PORT1, "1 " },
