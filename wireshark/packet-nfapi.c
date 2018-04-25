@@ -138,69 +138,69 @@ static const value_string nfapi_lbt_dl_ind_pdu_type[] = {
 /* These are definitions where data 0 & 1 represent/provide a string name*/
 
 static const true_false_string true_false_strname = {
-	"TRUE",
-	"FALSE"
+	"FALSE",
+	"TRUE"
 };
 
 static const true_false_string  nfapi_csi_report_type_strname = {
-	"Periodic",
 	"Aperiodic",
+	"Periodic"
 };
 
 static const true_false_string nfapi_control_type_string_name = {
-	"CQI/PMI",
 	"RI",
+	"CQI/PMI"
 };
 
 static const true_false_string transport_block_to_codeword_swap_flag = {
-	"NO_SWAPPING",
-	"SWAPPED"
+	"SWAPPED",
+	"NO_SWAPPING"
 };
 
 static const true_false_string virtual_resource_block_assignment_flag = {
-	"LOCALIZED",
-	"DISTRIBUTED"
+	"DISTRIBUTED",
+	"LOCALIZED"
 };
 
 static const true_false_string ngap_string_name = {
-	"N-GAP 1",
-	"N-GAP 2"
+	"N-GAP 2",
+	"N-GAP 1"
 };
 
 static const true_false_string  nprb_strname = {
-	"= 2",
 	"= 3",
+	"= 2"
 };
 
 static const true_false_string cyclic_prefix_type_strname = {
-	"CP_NORMAL",
-	"CP_EXTENDED"
+	"CP_EXTENDED",
+	"CP_NORMAL"
 };
 
 static const true_false_string support_strname = {
-	"No Support",
-	"Support"
+	"Support",
+	"No Support"
 };
 
 static const true_false_string partial_sf_support_strname =
 {
-	"Start partial SF support",
-	"End partial SF support"
+	"End partial SF support",
+	"Start partial SF support"
 };
 
 static const true_false_string phich_duration_strname = {
-	"PHICH_D_NORMAL",
-	"PHICH_D_EXTENDED"
+	"PHICH_D_EXTENDED",
+	"PHICH_D_NORMAL"
 };
 
 static const true_false_string high_speed_flag_strname = {
-	"HS_UNRESTRICTED_SET",
-	"HS_RESTRICTED_SET"
+	"HS_RESTRICTED_SET",
+	"HS_UNRESTRICTED_SET"
 };
 
 static const true_false_string hopping_mode_strname = {
-	"HM_INTER_SF",
-	"HM_INTRA_INTER_SF"
+	"HM_INTRA_INTER_SF",
+	"HM_INTER_SF"
 };
 
 static const true_false_string enabled_disabled_strname = {
@@ -209,33 +209,33 @@ static const true_false_string enabled_disabled_strname = {
 };
 
 static const true_false_string srs_simult_tx_strname = {
-	"No Simultaneous Transmission",
-	"Simultaneous Transmission"
+	"Simultaneous Transmission",
+	"No Simultaneous Transmission"
 };
 
 static const true_false_string crc_flag_strname = {
-	"CRC_CORRECT",
-	"CRC_ERROR"
+	"CRC_ERROR",
+	"CRC_CORRECT"
 };
 
 static const true_false_string hi_value_strname = {
-	"HI_NACK",
-	"HI_ACK"
+	"HI_ACK",
+	"HI_NACK"
 };
 
 static const true_false_string flag_tb2_strname = {
-	"HI_NOT_PRESENT",
-	"HI_PRESENT"
+	"HI_PRESENT",
+	"HI_NOT_PRESENT"
 };
 
 static const true_false_string nfapi_multi_carrier_tx_strname = {
+	"Transmit on channel access win (no self-deferral)",
 	"Mutual transmission (self-deferral support for current carrier)",
-	"Transmit on channel access win (no self-deferral)"
 };
 
 static const true_false_string nfapi_multi_carrier_freeze_strname = {
+	"Absence of other technology is guaranteed",
 	"Absence of other technology isn’t guaranteed",
-	"Absence of other technology is guaranteed"
 };
 
 static const value_string nfapi_dl_config_pdu_type_vals[] = {
